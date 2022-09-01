@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css " />
+    <title>FILL FORM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-no-repeat bg-top bg-contain md:bg-center">
+    <form
+      class="container shadow-blue-500 font-bold shadow-lg mx-auto px-10 my-20 py-6 space-y-5"
+    >
+      <h1 class="my-12 text-center font-bold text-4xl text-blue-500">SKY HIGH</h1>
+      <div
+        class="flex flex-col justify-between space-y-3 md:space-y-0 md:flex-row md:space-x-3"
+      >
+        <div class="md:w-1/2">
+          <label for="name" class="text-blue-500 block text-2xl"
+            >First Name</label
+          ><input
+            type="text"
+            placeholder="Enter Your Name"
+            class="border-solid border-4 border-blue-300 w-full px-3 py-2 mt-2 caret-pink-500"
+            required
+          />
+        </div>
+        <div class="md:w-1/2">
+          <label for="name" class="text-blue-500 block text-2xl"
+            >Last Name</label
+          ><input
+            type="text"
+            placeholder="Enter Your Name"
+            class="border-solid border-4 border-blue-300 w-full px-3 py-2 mt-2"
+            required
+          />
+        </div>
+      </div>
+      <div
+        class="flex flex-col justify-between space-y-3 md:space-y-0 md:flex-row md:space-x-3"
+      >
+        <div class="md:w-1/2">
+          <label for="name" class="text-blue-500 block text-2xl"
+            >Your Destination</label
+          ><input
+            type="text"
+            placeholder="Where You  are"
+            class="border-solid border-4 border-blue-300 w-full px-3 py-2 mt-2"
+            required
+          />
+        </div>
+        <div class="md:w-1/2">
+          <label for="name" class="text-blue-500 block text-2xl">
+            Country Name</label
+          ><input
+            type="text"
+            placeholder="Where you want to go "
+            class="border-solid border-4 border-blue-300 w-full px-3 py-2 mt-2 text-bold text-black"
+            required
+          />
+        </div>
+      </div>
+
+      <label for="Select budget" class="text-blue-500 block text-2xl"
+        >Select Flight Type</label
+      ><input type="radio" name="Select budget" required /><label
+        for="Select budget"
+        class="text-zinc-600 text-xl mx-2"
+        >Economy Class </label
+      ><br />
+      <input type="radio" name="Select budget" required /><label
+        for="Select budget"
+        class="text-zinc-600 text-xl mx-2"
+        >Premium Economy Class</label
+      ><br />
+      <input type="radio" name="Select budget" required />
+      <label for="Select budget" class="text-zinc-600 text-xl mx-2"
+        >Business Class</label
+      ><br />
+      <input type="radio" name="Select budget" required /><label
+        for="Select budget"
+        class="text-zinc-600 text-xl mx-2"
+        >First Class</label
+      ><br />
+      <button
+        type="submit"
+        class="bg-blue-400 text-white font-bold text-xl px-6 py-2 w-full rounded-full"
+      >
+        Submit
+      </button>
+    </form>
+  </body>
+</html>
