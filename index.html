@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>SKY HIGH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="container relative mx-auto p-5 flex justify-between">
+      <div class="flex items-center space-x-2">
+        <img src="./img/logo.svg" class="w-10" alt="logo" />
+        <h1 class="font-bold text-2xl text-blue-500">SKY HIGH</h1>
+      </div>
+      <div class="hidden items-center justify-between space-x-6 md:flex">
+        <a href="#home" class="font-bold text-xl text-blue-500"> Home </a>
+        <a href="#services" class="font-bold text-xl text-blue-500">
+          Services
+        </a>
+        <a href="#tours" class="font-bold text-xl text-blue-500"> Tours </a>
+        <a
+          href="./"
+          class="text-white font-bold text-xl px-6 py-2 bg-grl rounded-full hover:bg-white -300"
+        >
+          Log-in
+        </a>
+      </div>
+
+      <label for="check" id="click" class="block md:hidden open">
+        <input type="checkbox" id="check" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </nav>
+
+    <div class="md:hidden">
+      <div
+        id="menu"
+        class="container mx-auto my-14 flex-col items-center hidden py-8 mt-10 space-y-6 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+      >
+        <a href="#home" class="font-bold text-xl text-blue-500"> Home </a>
+        <a href="#services" class="font-bold text-xl text-blue-500">
+          Services
+        </a>
+        <a href="#tours" class="font-bold text-xl text-blue-500"> Tours </a>
+        <a
+          href="#"
+          class="text-white font-bold text-xl px-6 py-2 bg-grl rounded-full hover:bg-white -300"
+        >
+          Log-in
+        </a>
+      </div>
+    </div>
+
+    <section id="home">
+      <div
+        class="container mx-auto my-12 flex flex-col justify-between items-center bg-grl md:flex-row pt-3 md:items-start"
+      >
+        <div
+          class="flex flex-col text-center p-6 mx-12 w-1/2 md:text-left md:mt-4 lg:mt-24"
+        >
+          <h1 class="max-w-md text-white text-2xl font-bold md:text-3xl">
+            Just Click & Travel
+          </h1>
+          <h3 class="max-w-sm text-white text-1xl font-bold mt-6 md:text-2xl">
+            Travel With Comfort
+          </h3>
+          <div class="mt-6">
+            <a
+            href="./form.html"
+            class="text-white font-bold text-xl px-6 py-2 bg-grl rounded-full hover:bg-white -300"
+          >
+              Book
+          </a>
+          </div>
+        </div>
+
+        <img src="./img//hero.png" class="w-1/2" alt="dsplay" />
+      </div>
+    </section>
+    <section id="services">
+      <h1
+        class="w-1/2 mt-10 border-b-4 text-3xl border-blue-500 border-solid text-center pb-2 md:w-1/4 mx-auto font.bold md:text-4xl"
+      >
+        Services
+      </h1>
+      <div class="container mx-auto flex flex-col">
+        <div
+          class="flex flex-col items-center justify-center md:mt-12 md:flex-row md:items-start md:space-x-12"
+        >
+          <div class="w-auto text-center p-12 md:w-1/2 md:text-left">
+            <h1 class="text-2xl font-bold md:text-3xl text-blue-500">
+              The Happiest Flight
+            </h1>
+            <h2 class="text-1xl text-gray mt-4 max-w-sm">
+              SKY HIGH provides comfortable and smooth flights to our passengers
+              and gives the incredible staff that you need
+            </h2>
+          </div>
+          <div class="flex flex-col md:w-1/2">
+            <img src="./img/Service.jpg " alt="service" class="m-0 md:m-8" />
+          </div>
+        </div>
+        <div
+          class="flex flex-col-reverse items-center justify-center mt-12 md:flex-row md:items-start md:space-x-12"
+        >
+          <div class="flex flex-col md:w-1/2">
+            <img src="./img/fd-service.jpg " alt="fd" class="m-0 md:m-8" />
+          </div>
+          <div class="w-auto text-center p-6 md:w-1/2 md:text-left">
+            <h1 class="text-2xl font-bold md:text-3xl text-blue-500">
+              The Quality Food
+            </h1>
+            <h2 class="text-1xl text-gray mt-4 max-w-sm">
+              Tasty, Fresh, Hygienic, and well-cooked food without any chemical
+              that gives u the best taste
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tours">
+      <div class="container mx-auto">
+        <h1
+          class="w-1/2 border-b-4 border-blue-500 border-solid mt-20 mb-10 text-center pb-2 md:w-1/4 mx-auto font.bold text-3xl md:text-4xl"
+        >
+          Special Tours
+        </h1>
+        <div
+          class="flex flex-col justify-center items-center space-y-6 md:space-y-0 md:flex-row"
+        >
+          <div
+            class="w-3/4 py-4 flex flex-col border-solid border-4 border-white justify-between items-center h-96 bg-dubai bg-center bg-no-repeat bg-cover md:w-1/2"
+          >
+            <h1 class="text-white text-3xl font-bold text-center">
+              Dubai Tour
+            </h1>
+
+            <a
+              href="./form.html"
+              class="text-white font-bold text-xl px-6 py-2 bg-grl rounded-full hover:bg-white"
+            >
+              Book
+            </a>
+          </div>
+          <div
+            class="w-3/4 py-4 flex flex-col border-solid border-4 border-white justify-between items-center h-96 bg-london bg-center bg-no-repeat bg-cover md:w-1/2"
+          >
+            <h1 class="text-white text-3xl font-bold text-grl">London Tour</h1>
+            <a
+              href="./form.html"
+              class="text-white font-bold text-xl px-6 py-2 bg-grl rounded-full hover:bg-white"
+            >
+              Book
+            </a>
+          </div>
+          <div
+            class="w-3/4 py-4 flex flex-col border-solid border-4 border-white justify-between items-center h-96 bg-paris bg-center bg-no-repeat bg-cover md:w-1/2"
+          >
+            <h1 class="text-white text-3xl font-bold text-center">
+              Paris Tour
+            </h1>
+            <a
+              href="./form.html"
+              class="text-white font-bold text-xl px-6 py-2 bg-grl rounded-full hover:bg-white"
+            >
+              Book
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="help-line" class="text-center bg-grl md: p-5 container mx-auto">
+        <h1 class="text-white font-bold mt-32 text-3xl">
+          What are you waiting for
+        </h1>
+        <h2 class="text-white font-bold mt-6 text-2xl">
+          Book Yours Favourite flight
+        </h2>
+        <h2 class="text-white font-bold mt-6 text-2xl">With SKY HIGH</h2>
+        <button class="mt-8">
+          <a
+            href="./form.html"
+            class="text-white font-bold text-xl px-6 py-2 bg-grl rounded-full hover:bg-white -300"
+          >
+            Book
+          </a>
+        </button>
+      </div>
+    </section>
+    <footer id="footer">
+      <div
+        class="flex flex-col items-start mt-10 container md:space-x-4 mx-auto md:flex-row"
+      >
+        <div
+          class="w-full justify-center flex items-center space-x-2 md:justify-start md:py-6 md:w-1/3 lg:w-1/2"
+        >
+          <img src="./img/logo.svg" class="w-10" alt="logo" />
+          <h1 class="font-bold text-3xl text-blue-500">SKY HIGH</h1>
+        </div>
+        <div
+          class="w-full flex flex-col items-center md:space-x-12 justify-end md:flex-row md:items-start"
+        >
+          <div class="text-center flex flex-col w-28 space-y-2">
+            <a
+              href="#"
+              class="items-center my-3 py-3 border-b-4 border-solid border-blue-500 text-1xl font-bold"
+              >LINKS</a
+            >
+            <a href="#" class="text-gray">FAQ</a>
+            <a href="#" class="text-gray">Help</a>
+            <a href="#" class="text-gray">Support</a>
+          </div>
+          <div class="text-center flex flex-col w-28 space-y-2">
+            <a
+              href="#"
+              class="items-center my-3 py-3 border-b-4 border-solid border-blue-500 text-1xl font-bold"
+              >LEAGAL</a
+            >
+            <a href="#" class="text-gray">Terms</a>
+            <a href="#" class="text-gray">Privacy</a>
+          </div>
+          <div class="text-center flex flex-col w-28 space-y-2">
+            <a
+              href="#"
+              class="items-center my-3 py-3 border-b-4 border-solid border-blue-500 text-1xl font-bold"
+              >SOCIAL</a
+            >
+            <a href="#" class="text-gray">Facebook</a>
+            <a href="#" class="text-gray">Linkedin</a>
+            <a href="#" class="text-gray">Twitter</a>
+          </div>
+          <div class="text-center flex flex-col w-28 space-y-2">
+            <a
+              href="#"
+              class="items-center my-3 py-3 border-b-4 border-solid border-blue-500 text-1xl font-bold"
+              >COMPANY</a
+            >
+            <a href="#" class="text-gray">Facebook </a>
+            <a href="#" class="text-gray">Official Vlogs</a>
+            <a href="#" class="text-gray">About us</a>
+            <a href="#" class="text-gray">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
